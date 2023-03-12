@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/se234-lab12
+    ports:
+      - 8080:8080
+  frontend:
+    image: yanhang1/234-lab12-frontend
+    ports:
+      - 8102:80
