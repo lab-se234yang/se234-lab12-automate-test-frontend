@@ -6,7 +6,7 @@ services:
       - 8101:8080
     volumes:
       - type: bind
-        source: /home/ubuntu/document/data.xlsx
+        source: /home/ubuntu/document/
         target: /data
   frontend:
     image: yanhang1/234-lab12-frontend
